@@ -1,0 +1,288 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  box-sizing: border-box;
+
+}
+
+/*   hiding stuff */
+.homepage-hidden {
+  /* display: none; */
+}
+
+.concerts-hidden {
+  /* display: none; */
+
+}
+
+.contact-hidden{
+  /* display: none; */
+}
+
+.about-hidden {
+  /* display: none; */
+}
+
+
+/* mobile-first */
+
+
+
+
+
+/* Styles */
+
+
+/* my hamburger stack  */
+
+#hamburger-div {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+span {
+  display: block;
+  background-color: black;
+  height: 2px;
+  width: 34px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+/* hide nav list when small
+.on click of hamburger, display nav list, but hide hamburger
+responsive. when large screen, hide hamburger*/
+
+ul li a {
+  display: none;
+}
+
+/* font - landing page */
+.text-landing-page {
+  margin: 0 auto;
+  width: 550px;
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+.text-landing-page h1 {
+  text-align: right;
+  font-size: 95px;
+  font-family: Pacifico, cursive;
+
+}
+
+.text-landing-page h2 {
+  font-family: Thasadith, sans-serif;
+  font-size: 36px;
+  text-align: right;
+
+}
+
+.book {
+  margin: 0 auto;
+  width: 550px;
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: white;
+  font-size: 50px;
+  font-family: Thasadith;
+  border: 0.5px solid black;
+  border-radius: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Concert Page*/
+
+/* responsive - when on concerts page - change background color of html to black
+jquery - hold upcoming concerts in an array, update when needed */
+
+.Concerts-page {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: black;
+}
+.Concerts-page * {
+  margin: 0 auto;
+  padding: 75px 125px;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+#concerts-title {
+  text-align: center;
+  font-family: Pacifico;
+  font-size: 45px;
+  color: white;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.upcoming {
+  background-color: black;
+  text-align: center;
+  padding: 25px;
+  display: block;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.upcoming * {
+  display: inline;
+  padding: 0px 45px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.live-date {
+  text-align: right;
+  font-size: 26px;
+
+}
+
+.live-location {
+  text-align: left;
+  font-size: 26px;
+}
+
+/* Contact Page */
+
+
+.Contact-page {
+  padding: 30px;
+  margin: 0 auto;
+  width: 600px;
+  font-family: arial;
+}
+
+.Contact-page *{
+  background-color: white;
+  color: black;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+#contact-title {
+  font-family: Pacifico;
+  font-size: 45px;
+}
+
+.Contact-page form {
+  padding: 10px;
+
+}
+.Contact-page input {
+  padding: 25px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 50%;
+  border: 0.5px solid black;
+}
+
+
+#contact-message {
+  height: 160px;
+}
+
+.Contact-page button {
+  width: 50%;
+  border-radius: 24px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+/* About me - phone */
+.about-page {
+  padding-top: 75px;
+  border: 2px solid yellow;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about-page img {
+  width: 350px;
+  overflow: hidden;
+}
+
+.about-text {
+  margin-top: 175px;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+}
+
+
+/* end smartphone responsive */
+
+/* start large screen responsive design */
+
+
+#hamburger-div {
+  display: none;
+}
+
+header {
+  background-color: violet;
+}
+
+ul {
+  display: inline;
+  font-family: Thasadith;
+  font-size: 20px;
+}
+/* About Me - full-screen */
+.about-page {
+  padding-top: 75px;
+  border: 2px solid yellow;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.about-page img {
+  float: left;
+  width: 350px;
+  overflow: hidden;
+}
+
+.about-text {
+  margin-top: 175px;
+  height: 100%;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+#about-title {
+  font-family: Pacifico;
+  font-size: 45px;
+  margin-bottom: 20px;
+
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width : 600px){
+  *{
+    /* background-color: gold; */
+  }
+
+
+}
+
+
+/* large screen responsive design end */
+
+/*
+ ---- when large, show full nav list,hide hamburger menu, background img to full screen
+ ---- upon book concert click - pull up form in shadow box
+ ---- upon contact - go to contact page with contact form
+ ---- */

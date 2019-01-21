@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jennky Keiger</title>
+    <!-- <link rel="stylesheet" type="text/css" href="main.css"><link> -->
+    <link rel="stylesheet" type="text/css" href="main_v2.css"><link>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Thasadith" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div id="hamburger-div" class="hide_hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    <nav class="menu mobile_menu" id="menu">
+      <ul>
+        <li><a href="#homepage">home</a></li>
+        <li><a href="#concerts-page">concert</a></li>
+        <li><a href="https://www.youtube.com/channel/UCQiLkz960V3hWti9IsS5LPg" target="_blank">YouTube</a></li>
+        <li><a href="https://www.twitch.tv/kiiger" target="_blank">Twitch</a></li>
+        <li><a href="#Contact-page">contact</a></li>
+        <li><a href="#about-page">about</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <!-- HOMEPAGE -->
+
+  <section class="homepage homepage-hidden" id="homepage">
+    <div class="text-landing-page">
+      <h1>Jenny Keiger</h1>
+      <h2>Singer. Songwriter.</h2>
+    </div>
+    <div class="book">
+      <button type="button" name="button" class="book-button">Book a Concert!</button>
+    </div>
+  </section>
+
+  <div class="messagepop pop">
+  <form method="post" id="new_message" action="/messages">
+    <p><label for="email">Your email or name</label><input type="text" size="30" name="email" id="email" /></p>
+    <p><label for="body">Message</label><textarea rows="6" name="body" id="body" cols="35"></textarea></p>
+    <p><input type="submit" value="Send Message" name="commit" id="message_submit"/> or <a class="close" href="/">Cancel</a></p>
+  </form>
+  </div>
+
+
+
+
+<!-- CONCERTS PAGE -->
+
+  <div class="Concerts-page concerts-hidden" id="concerts-page">
+    <h2 id="concerts-title">Upcoming Live Shows</h2>
+    <div class="concerts-background">
+    <div class="upcoming">
+      <div class="live-date">
+        May 2, 2019
+      </div>
+      <div class="live-location">
+        Austin, Texas
+      </div>
+    </div>
+
+    <div class="upcoming">
+      <div class="live-date">
+        June 9, 2019
+      </div>
+      <div class="live-location">
+        Los Angeles, California
+      </div>
+    </div>
+
+    <div class="upcoming">
+      <div class="live-date">
+        July 18, 2019
+      </div>
+      <div class="live-location">
+        Mexico City, Mexico
+      </div>
+    </div>
+    </div>
+  </div>
+
+<!-- CONTACT PAGE -->
+
+  <div class="Contact-page contact-hidden" id="Contact-page">
+    <h2 id="contact-title">Contact Me!</h2>
+    <form class="contact-form" action="index.html" method="post">
+      <input type="text" name="" value="" placeholder="First Name">
+      <input type="text" name="" value="" placeholder="Last Name">
+      <input id="contact-subject" type="text" name="" value="" placeholder="Subject">
+      <input id="contact-message" type="text" name="" value="" placeholder="Message">
+      <button type="button" name="button">submit</button>
+    </form>
+  </div>
+
+  <section class="about-page about-hidden" id="about-page">
+      <h2 id="about-title">About</h2>
+      <div class="about-container">
+        <div class="img-div">
+          <img src="https://images.unsplash.com/photo-1531651008558-ed1740375b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="microphone-bw">
+        </div>
+        <div class="about-text-div">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+  </section>
+
+  <footer></footer>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="script.js">
+  </script>
+
+</html>
